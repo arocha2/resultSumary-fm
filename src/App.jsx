@@ -1,3 +1,9 @@
+import { Results } from "./components/Results";
+
 export const App = () => {
-  return <div>App</div>;
+  return (
+    <main>
+      <Results />
+    </main>
+  );
 };
